@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <style>
+        section{
+            background-color: red;
+            height: 10%;
+        }
+        img{
+            width: 150px;  
+        }
+
+        div{
+            text-align: center;
+        }
+        span{
+            color: red;
+        }
+        .botao{
+            background-color: red;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--topo-->
+    <section>
+        <img src="image/logo.png" alt="Logo da Americanas">
+    </section>
+    <!--fim do topo-->
+    <!--Inicio formulario-->
+    <div>
+        <h1>Ciar seu cadastro</h1>
+        <h3>veja seus pedidos de forma fácil, compre mais rápido <br> e tenha uma experiência personalizada;)</h3>
+        <span>*</span>campo obrigatorio <br><br>
+
+        <form action="" method="post">
+            <span>*</span><label for="">Nome Completo</label><br>
+            <input type="text" name="nome"><br><br>
+
+            <span>*</span><label for="">genero</label><br>
+           pra gente te conhecer um pouquinho melhor :) <br>
+            <input type="radio" name="masculino" id="">masculino
+            <input type="radio" name="feminino" id="">feminino
+            <input type="radio" name="naoinformar" id="">não informar <br><br>
+
+            <span>*</span><label for="">data de nascimento</label><br>
+            necessário para identificar a maioridade, no morta DD/MM//AAAA <br>
+            <input type="date" name="data" id="" placeholder="__/__/____"><br><br>
+
+            <span>*</span><label for="">CPF</label>
+            necessário para emissão das Notas Fiscais <br>
+            <input type="text" name="cpf" id="" placeholder="___-___-___-__">
+
+            <p><a href="">é pessoa jurídica? conece a americanas empresas</a></p>
+
+            <span>*</span><label for="">telefone</label><br>
+            caso a gente precise entrar em contato sobre seus pedidos <br>
+            <input type="tel" name="telefone" id="" placeholder="(__) _____-____"><br>
+
+            <span>*</span><label for="">e-mail</label><br>
+            informe um e-mail válido. Você vai precisar ativar sua conta depois de criar seu cadastro <br>
+            <input type="email" name="email" id=""><br><br>
+            <input type="checkbox" name="checkbox" id="">receber e-mail promocionais <br>
+
+            <span>*</span><label for="">senha</label><br>
+            precisa ter entre 6 e 20 caracteres <br>
+            <input type="password" name="senha" id=""><br>
+            <input type="range" name="" id="" min="6" max="20"><br>
+            <input type="checkbox" name="possenha" id="">compartilhe meus dados com parceiros para ter<br>
+            conteúdos pernosalizados, veja <a href="">como funciona</a>. <br><br>
+
+            <input type="submit" value="criar seu cadastro" class="botao">
+
+            <h3>Não se preocuppe, nosso site é seguro! Ao criar o seu cadastro,<br>
+            você concorda com a nossa <a href="">política de privacidade</a></h3><br><br>
+
+                <h3>Já tem cadastro? <a href="">entrar</a></h3>
+
+        </form>
+    </div>
+    <!--fim formulario-->
+
+
+</body>
+</html>
