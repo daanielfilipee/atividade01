@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 05 -css</title>
+    <style>
+        *{  
+            padding: 0px;
+            margin: 0px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        ul {
+            list-style: none;
+            background-color: seagreen;
+            
+        }
+        ul > li {
+            display: inline-block;
+            font-size: 24px;
+            padding: 10px;
+            margin: 5px;
+            text-transform: lowercase;
+            font-weight: bold;
+        }
+
+        ul > li:hover {
+            background-color: teal;
+            cursor: pointer;
+            border-radius: 10px 0px 10px 0px;
+        }
+
+        #conteudo {
+            background-color: pink;
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            padding: 150px;
+            position: fixed;/* absolute - relative - fixed*/
+            top: 0px;
+            right: 0px;
+            border:dashed 4px blueviolet;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+    
+    <div id="conteudo">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, consequatur? Atque voluptate magni exercitationem omnis dolorem sint doloremque libero earum tempora odio. Dolorum explicabo corporis blanditiis facere dolore, fugiat quas?</p>
+    </div>
+</body>
+</html>
